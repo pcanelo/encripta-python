@@ -18,16 +18,16 @@ cd xxxx
 
 then execute 
 
-´´´
+```
 python -m pip install --upgrade pipCopy
-´´´
-´´´
+```
+```
 python -m pip install --upgrade PillowCopy
-´´´
+```
 you can  use
-´´´
+```
 pip install pycryptodome
-´´´
+```
 
 
 ## Step 3: Encrypt with ECB Mode
@@ -35,6 +35,6 @@ python encrypt_image.py -ecb Tux.png Tux_ECB.pngCopy
 Open and look at the Tux_ECB.png file generated in the same directory
 
 ## Step 4: Encrypt with CFB Mode
-´´´
+```
 python encrypt_image.py -cfb Tux.png Tux_CFB.png
-´´´
+```
