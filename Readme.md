@@ -31,7 +31,9 @@ pip install pycryptodome
 
 
 ## Step 3: Encrypt with ECB Mode
-python encrypt_image.py -ecb Tux.png Tux_ECB.pngCopy
+```
+python encrypt_image.py -ecb Tux.png Tux_ECB.png
+```
 Open and look at the Tux_ECB.png file generated in the same directory
 
 ## Step 4: Encrypt with CFB Mode
