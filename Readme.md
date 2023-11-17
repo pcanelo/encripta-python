@@ -40,3 +40,5 @@ Open and look at the Tux_ECB.png file generated in the same directory
 ```
 python encrypt_image.py -cfb Tux.png Tux_CFB.png
 ```
+
+Open and look at the Tux_CFB.png file generated in the same directory
